@@ -10,9 +10,9 @@ on:
         default: 'false'
 
 env:
-  FIRMWARE_URL: "https://github.com/xuncv/openwrt-builder/releases/download/2021.04.03-2334/openwrt-x86-64-generic-rootfs.tar.gz"
-  REPOSITORY: ljtnine/docker_openwrtx86
-  TAG: 19.07.2
+  FIRMWARE_URL: "https://github.com/xuncv/openwrt-builder/releases/download/2023.03.03-1849/openwrt-x86-64-generic-squashfs-rootfs.img.gz"
+  REPOSITORY: mikelang/docker_openwrtx86-vn
+  TAG: 23.11.05
 
 jobs:
   build:
