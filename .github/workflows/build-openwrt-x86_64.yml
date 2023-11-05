@@ -32,7 +32,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
-  REPOSITORY: ljtnine/docker_openwrtx86
+  REPOSITORY: mikelang/docker_openwrtx86
 jobs:
   build:
     runs-on: ubuntu-latest
