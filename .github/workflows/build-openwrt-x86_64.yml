@@ -35,7 +35,7 @@ env:
   REPOSITORY: ljtnine/docker_openwrtx86
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
